@@ -1,0 +1,163 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: #666;
+}
+.f {
+    font-size: 30px;
+    color: #484848;
+    margin: 5px;
+    font-weight: bolder;
+}
+.head {
+    background-color: #00838F;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    font-family: monospace;
+}
+.logo {
+    display: inline-block;
+    width: 40%;
+    font-size: 40px;
+    font-family: monospace;
+}
+.nav-bar {
+    display: inline-block;
+    float: right;
+    text-align: right;
+    width: 60%;
+}
+.item {
+    display: inline-block;
+    padding: 9px;
+    margin: 0 20px;
+    font-size: 19px;
+
+}
+.item: hover {
+    background-color: #006064;
+}
+.container {
+    width: 100%;
+    padding: 0 10%;
+}
+.about,.contact {
+    background-color: #fff;
+    padding: 5% 10%;
+    height: 300px;
+    width: 100%;
+    color: #00838F;
+}
+.content {
+    font-family: monospace;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    text-align: justify;
+
+}
+.pic {
+    float: right;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transform: rotate(90deg);
+}
+.title {
+    text-align: center;
+    padding: 30px;
+    color:#fff;
+    font-size: 25px;
+}
+.portfolio {
+    background-color: #00838F;
+    width: 100%;
+    padding: 5% 10%;
+}
+.half {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+.in {
+    width: 100%;
+    line-height: 40px;
+    padding: 5px;
+    font-size: 25px;
+    margin: 10px 0;
+    border-bottom: 3px solid #00838F;
+}
+.msg {
+    resize: none;
+    display: inline-block;
+    line-height: 40px;
+    padding: 5px;
+    font-size: 25px;
+    margin: 10px 0;
+    border-bottom: 3px solid #00838F;
+}
+.in:focus,.in:active ,.msg:focus,.msg:active{
+    outline: none;
+}
+.contact {
+    height: 100%;
+
+}
+.btn {
+    color: #00838F;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #00838F;
+}
+.btn:hover {
+    background-color: #e0e0e0;
+}
+.detail {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    padding: 30px;
+    color: #757575;
+    font-size: 20px;
+    text-align: justify;
+}
+.gallery {
+    position: relative;
+}
+.card {
+
+    display: inline-block;
+    margin: 10px;
+
+}
+.image {
+    width: 387px;
+    height: 250px;
+}
+.footer {
+    width: 100%;
+    background-color: #00838F;
+    padding: 10% 10%;
+}
+.copyright {
+    width: 100%;
+    background-color: white;
+    color: #006064;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;t
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
